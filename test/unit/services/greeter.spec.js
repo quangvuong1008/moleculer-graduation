@@ -1,5 +1,7 @@
 "use strict";
 
+process.env.TEST=true;
+
 const { ServiceBroker } = require("moleculer");
 const { ValidationError } = require("moleculer").Errors;
 const TestService = require("../../../services/greeter.service");

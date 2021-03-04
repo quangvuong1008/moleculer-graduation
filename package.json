@@ -25,11 +25,22 @@
     "moleculer-repl": "^0.6.4"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
     "moleculer": "^0.14.10",
     "moleculer-db": "^0.8.4",
     "moleculer-db-adapter-mongo": "^0.4.7",
     "moleculer-web": "^0.9.0",
-    "nats": "^1.4.12"
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "nats": "^1.4.12",
+    "pg": "^8.4.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "uuid": "^8.3.2"
   },
   "engines": {
     "node": ">= 10.x.x"

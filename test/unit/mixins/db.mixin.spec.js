@@ -1,5 +1,7 @@
 "use strict";
 
+process.env.TEST=true;
+
 const { ServiceBroker } = require("moleculer");
 const DbService = require("moleculer-db");
 const DbMixin = require("../../../mixins/db.mixin");

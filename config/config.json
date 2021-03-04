@@ -1,0 +1,25 @@
+{
+  "development": {
+    "use_url": false,
+    "database_url": "",
+    "username": "root",
+    "password": "",
+    "database": "graduation",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "use_url": false,
+    "database_url": "",
+    "username": "root",
+    "password": "",
+    "database": "graduation",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_url": true,
+    "database_url": "",
+    "dialect": "mysql"
+  }
+}
