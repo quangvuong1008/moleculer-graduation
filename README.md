@@ -43,6 +43,7 @@ In the terminal, try the following commands:
 
 ## Setup local project
 
+- download file .env and paste in project from link: `https://drive.google.com/file/d/1dUTzEzPSM2sY_TksbA0xNSgZEpfOtTY8/view?usp=sharing`
 - setup database in file config.json (ex create database: graduation)
 - `npx sequelize-cli db:migrate`: create table
 - `npx sequelize-cli db:seed:all`: insert data
