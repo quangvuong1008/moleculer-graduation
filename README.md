@@ -40,3 +40,10 @@ In the terminal, try the following commands:
 - `npm test`: Run tests & generate coverage report
 - `npm run dc:up`: Start the stack with Docker Compose
 - `npm run dc:down`: Stop the stack with Docker Compose
+
+## Setup local project
+
+- setup database in file config.json (ex create database: graduation)
+- `npx sequelize-cli db:migrate`: create table
+- `npx sequelize-cli db:seed:all`: insert data
+- `npm run dev`: Start development mode (load all services locally with hot-reload & REPL)
